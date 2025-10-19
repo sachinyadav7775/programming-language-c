@@ -48,6 +48,5 @@ int main(){
         nSt--;
         printf("\n");
     }
-
-    
     return 0;
+}
