@@ -12,6 +12,7 @@ int main(){
         }
     }
     int res = sumEven-sumOdd;
-        printf("%d\n",res);
+    printf("%d\n",res);
+    
     return 0;
 }
