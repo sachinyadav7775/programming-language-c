@@ -10,10 +10,10 @@
     printf("enter 3st side : ");
     scanf("%d",&c);
     if((a+b)>c && (b+c)>a && (c+a)>b){
-    printf("valid triangle");
+        printf("valid triangle");
     }
     else{
-    printf("invalid triangle");
+        printf("invalid triangle");
     } 
     
     return 0;

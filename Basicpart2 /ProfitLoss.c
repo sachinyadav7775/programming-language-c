@@ -3,7 +3,7 @@ int main(){
     int cp;
     printf("Enter cost Price :");
     scanf("%d",&cp);
-     int sp;
+    int sp;
     printf("Enter sellimg Price :");
     scanf("%d",&sp);
     if(sp>cp){
