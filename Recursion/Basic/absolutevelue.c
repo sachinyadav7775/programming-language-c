@@ -4,7 +4,7 @@ int main(){
     printf("enter a number:");
     scanf("%d",&x);
     if(x<0){
-    x = x * (-1);
+        x = x * (-1);
     }
     printf("the a absolute value is:%d",x);
 
