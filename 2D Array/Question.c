@@ -1,5 +1,5 @@
 int main(){
-    /*int n ;
+    int n ;
     printf("Enter the number of rows : ");
     scanf("%d",&n);
     int m;
@@ -17,7 +17,7 @@ int main(){
             printf("%d ",arr[i][j]);
         }
         printf("\n");
-    }*/
+    }
     int arr[3][3] = {{45,89,93},{48,110,90},{48,88,80}};
     int max = arr[0][0];
     for(int i=0;i<3;i++){
