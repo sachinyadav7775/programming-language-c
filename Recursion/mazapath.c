@@ -1,5 +1,5 @@
 #include<stdio.h>
-/*int maze(int cr , int cc , int er , int ec){
+int maze(int cr , int cc , int er , int ec){
     int rightways = 0 ;
     int downways = 0 ;
     if(cr==er && cc==ec) return 1;
@@ -26,7 +26,8 @@ int main(){
     int noOfways = maze(1,1,n,m);
     printf("%d\n", noOfways );
     return 0;
-} */
+} 
+
 int maze(int n , int m){
     int rightways = 0 ;
     int downways = 0 ;
