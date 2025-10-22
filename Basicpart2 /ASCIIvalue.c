@@ -4,12 +4,7 @@ int main(){
     printf("%d\n",ch);                      // ASCII = a -> 97
     
     char Ch = '@';
-    printf("%c\n",Ch);
-
-    char Ch = '@';
-    printf("%p\n",Ch);
-
+    printf("%c\n",ch);
     
     return 0;
-
 }
