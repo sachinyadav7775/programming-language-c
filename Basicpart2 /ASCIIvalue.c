@@ -5,6 +5,10 @@ int main(){
     
     char Ch = '@';
     printf("%c\n",ch);
+
+    /*char ch = '%';
+    int x = (int)ch;
+    printf("%d",x);*/
     
     return 0;
 }
