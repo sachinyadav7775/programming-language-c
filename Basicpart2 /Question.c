@@ -50,13 +50,26 @@ int main(){
     int A = 200;
     int B = 33;
     int C = 500;
-    if (A > B || A > C) {
+    if (A > B || A > C){
         printf("At least one condition is true\n");
     }
     int n = 33;
     int m = 200;
-    if (!(n > m)) { 
+    if (!(n > m)){ 
         printf("a is NOT greater than b\n");
     }
+    int myNum = 10; 
+    // Is this a positive or negative number?
+    if (myNum > 0){
+        printf("The value is a positive number.");
+    
+    }
+    else if(myNum < 0){
+        printf("The value is a negative number.");
+    }
+    else{
+        printf("The value is 0.");
+    }
+
     return 0;
 }
