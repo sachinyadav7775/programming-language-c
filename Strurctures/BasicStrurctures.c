@@ -5,7 +5,7 @@ int main(){
         int speed;
         int attack;
         char tier; // S , G , A , B , C , D
-    }sky;
+    };
     struct pokemon pikachu;
     // printf("Enter attack of pikachu : ");
     // scanf("%d",&pikachu.attack);       // user se input lena 
@@ -17,7 +17,7 @@ int main(){
     
     struct pokemon meena ;
     // printf("Enter attack of meena : ");
-    // scanf("%d",&meena.speed);       // user se input lena 
+    // scanf("%d",&meena.speed);        // user se input lena 
     meena.attack = 70;
     meena.hp = 80;
     meena.speed = 95;
