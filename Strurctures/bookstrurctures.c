@@ -16,14 +16,14 @@ int main(){
     strcpy(b.name,"Famous Five");
 
     c.noOfpages = 5005;
-    c.price = 299.558;
+    c.price = 299.58;
     strcpy(c.name,"Famous Two");
 
     printf("%d\n",b.noOfpages);
     printf("%f\n",a.price);
     printf("%s\n",a.name);
-    printf("%s\n",c.noOfpages);
-    printf("%d\n",b.name);
+    printf("%d\n",c.noOfpages);
+    printf("%s\n",b.name);
     printf("%f\n",c.price);
 
     return 0;
