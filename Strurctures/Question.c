@@ -2,11 +2,11 @@
 #include<string.h>
 int main(){
     typedef struct cricketer{
-    char firstname[25];
-    char lastname[25];
-    int age;
-    int noOfmatches;
-    float average;
+        char firstname[25];
+        char lastname[25];
+        int age;
+        int noOfmatches;
+        float average;
     }cricketer;
 
     // 3 cricketer 
