@@ -25,7 +25,7 @@ int main(){
         printf("Age : %d\n",Arr[i].age);
         printf("Number of maeches : %d\n",Arr[i].noOfmatches);
         printf("Average runs : %f\n\n",Arr[i].average);
-   } 
+    } 
     
     typedef struct car{
         char name[30];
@@ -63,7 +63,7 @@ int main(){
         printf("tier : %c\n",arr[i].tier);
         printf("Speed : %d\n",arr[i].speed);
         printf("Average : %f\n\n",arr[i].average);
-    }
+    } 
 
     return 0;
     
