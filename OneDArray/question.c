@@ -21,5 +21,6 @@ int main(){
         }
         printf(" student %d ka total marks : %d\n",i+1,total);
     }
+    
     return 0;
 }
