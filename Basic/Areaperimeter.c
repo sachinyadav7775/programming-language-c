@@ -1,8 +1,9 @@
 #include<stdio.h>
-int main(){ 
+int main() {
     int l ;
     printf("enter length:");
     scanf("%d",&l);
+    
     int b ;
     printf("enter breadth:");
     scanf("%d",&b);
@@ -14,5 +15,6 @@ int main(){
     else{
       printf("area  not freater than perineter");
     }
+
     return 0;
 }

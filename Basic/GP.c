@@ -3,6 +3,7 @@ int main(){
     int n ;
     printf("Enter a number :");
     scanf("%d",&n);
+    
     // 1 2 4 8 16 32 64 ...... upto a number of terms
     // we are going to use extra variables
     int a = 1 ;
@@ -26,5 +27,6 @@ int main(){
         printf("%f ",x);
         x = x / 2 ;
     }
+
     return 0;
 }
