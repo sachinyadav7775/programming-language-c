@@ -10,5 +10,6 @@ int main(){
         printf("%c ",arr[i]);
         i++;
     }
+    
     return 0;
 }

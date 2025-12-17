@@ -4,6 +4,7 @@ int main(){
     char str[100];
     puts("Enter a string");
     scanf("%[^\n]s",str);
+    
     // size
     int size = 0;
     int k = 0;
