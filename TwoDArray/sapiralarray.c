@@ -14,6 +14,7 @@ int main(){
             scanf("%d",&arr[i][j]);
         }
     } 
+    
     // wave print
     int minr = 0;
     int maxr = m - 1;
