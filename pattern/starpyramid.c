@@ -52,7 +52,6 @@ int main(){
         nSt = nSt + 2 ;
         printf("\n");
     }*/
-    
     int y ;
     printf("enter number of lines : ");
     scanf("%d",&y);
@@ -96,5 +95,6 @@ int main(){
         } 
         printf("\n");
     }   
+
     return 0;
 }

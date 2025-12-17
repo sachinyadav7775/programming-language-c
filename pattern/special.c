@@ -16,6 +16,7 @@ int main(){
         }
         printf("\n");
     }
+    
     int m ;
     printf("enter number of lines : ");
     scanf("%d",&m);
@@ -32,7 +33,6 @@ int main(){
         }
         printf("\n");
     }
-
 
     return 0;
 }
