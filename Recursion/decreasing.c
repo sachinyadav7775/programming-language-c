@@ -10,5 +10,6 @@ int Main(){
     printf("Enter a number : ");
     scanf("%d",&n);
     decreasing(n);
+    
     return 0;
 }

@@ -13,5 +13,6 @@ int main(){
     printf("Enter a number : ");
     scanf("%d",&n);
     zigzag(n);
+    
     return 0;
 }

@@ -17,5 +17,6 @@ int main(){
     scanf("%d",&b);
     int p = powerlog(a,b);
     printf("%d raised to the power %d is : [ %d ]\n ",a,b,p);
+    
     return 0;
 }

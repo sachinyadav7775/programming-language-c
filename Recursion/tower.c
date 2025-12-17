@@ -6,7 +6,6 @@ void tower(int n, char s , char h, char d){
     tower(n-1,h,s,d);
     return;
 }
-
 int main(){
     int n ;
     printf("Enter number of disks : ");

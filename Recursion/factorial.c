@@ -25,5 +25,6 @@ int Main(){
     scanf("%d",&m);
     int fact = Factorial(m);
     printf("%d\n",fact);
+    
     return 0;
 }

@@ -11,5 +11,6 @@ int main(){
     printf("enter a number : ");
     scanf("%d",&n);
     printf("%d\n",fibo(n));
+    
     return 0;
 }

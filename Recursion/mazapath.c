@@ -27,7 +27,6 @@ int main(){
     printf("%d\n", noOfways );
     return 0;
 } 
-
 int maze(int n , int m){
     int rightways = 0 ;
     int downways = 0 ;
@@ -54,5 +53,6 @@ int main(){
     scanf("%d",&m);
     int noOfways = maze(n,m);
     printf("%d\n", noOfways );
+
     return 0;
 }
