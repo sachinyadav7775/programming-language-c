@@ -7,6 +7,7 @@ int main(){
     printf("Enter on of columns of 1st matrix : ");
     scanf("%d",&n);
     int arr[m][n];
+    
     // input the first matrix
     printf("\nEnter elements of 1st matrix :");
     for(int i=0;i<m;i++){
@@ -14,6 +15,7 @@ int main(){
             scanf("%d",&arr[i][j]);
         }
     } 
+
     // wave print
     printf("\n");
     for(int i=0;i<m;i++){
@@ -29,5 +31,6 @@ int main(){
         }
         printf("\n");
     }
+
     return 0;
 }

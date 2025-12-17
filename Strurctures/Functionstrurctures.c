@@ -27,5 +27,6 @@ int main(){
     printf("%d\n",pikachu.attack);
     printf("%d\n",pikachu.speed);
     //fun(pikachu);
+    
     return 0;
 }

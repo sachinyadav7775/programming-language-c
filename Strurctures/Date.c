@@ -26,6 +26,5 @@ int main(){
     else printf("The dates are different");
     printf("\n");
 
-
     return 0;
 }
