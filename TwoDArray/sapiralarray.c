@@ -47,5 +47,6 @@ int main(){
         }
         minc++;
     }
+    
     return 0;
 }

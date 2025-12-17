@@ -27,6 +27,7 @@ int main(){
             }
         }
     }
+    
     printf("the number of max: %d\n",max);
 
     return 0;
