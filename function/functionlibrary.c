@@ -6,6 +6,7 @@ int main(){
     scanf("%d",&n);*/
     int root = sqrt(625);
     printf("the square root is : %d\n",root);
+    
    /*int a ;
     printf("enter a number :");
     scanf("%d",&a);

@@ -7,12 +7,14 @@ int main(){
     int** y = &x; // int** -> int* ka address store karta 
     int*** z = &y ;   //vvip -> *x = 7 ;// a is changed.
     int**** s = &z ;
+    int**** k = &s ;
     printf("%d\n",a);
     printf("%d\n",*x);  // %p se address print hota hai
     printf("%d\n",**y);
     printf("%d\n",***z);
     printf("%d\n",****s);
-
+    printf("%d\n",*****k);
 
     return 0;
+    
 }

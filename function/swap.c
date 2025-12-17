@@ -6,11 +6,13 @@ void swap(int*x, int*y){
     *y = temp ; // *y = 2 -> b = 2;
     return;
 }
+
 int main(){
     int a = 2;
     int b = 9;
     swap(&a,&b);
     printf("The value of a is %d\n",a);
     printf("The value of a is %d\n",b);
+
     return 0;
 }
